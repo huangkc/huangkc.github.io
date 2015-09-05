@@ -1,0 +1,89 @@
+    header {
+           border: 1px solid white;
+           position: relative;
+           width: 97.5%;
+           margin-top: 0px;
+           height: 160px;
+           margin-bottom: 10px;   
+           background-color: lightgray;
+           background: url(../../banner.png);
+          }
+   header nav ul {
+          margin-top: 122px; 
+          padding: 0px;
+        }
+   header nav li {
+          display: inline;
+          float: right;
+        } 
+   header nav a {
+          font-family: Verdana, sans-serif;
+          display: block; 
+          width: 150px;
+          font-weight: bold;
+          background-color:#B9D7D9;
+          text-align: center;
+          padding: 10px;
+          text-decoration: none;
+          text-transform: uppercase;
+          }
+   header nav li a:hover {
+        color: #000000;
+          }
+   header nav li a {color: red;
+        }
+   aside {
+          background-color: #B9D7D9;
+          border: 1px solid white;
+          position: relative;
+          float: left;
+          margin-top: 10px;
+          width: 20%;
+          height: 400px;
+          margin-bottom: 20px;
+          }
+    aside ul {
+        list-style-type: none;
+        position: relative;
+        text-align: center;
+        }
+    aside ul li a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: red;
+        font-family: Verdana, sans-serif;
+        font-weight: bold;
+        padding: 5px;
+        display: block;
+      }
+    aside ul li a:hover {
+        color: #000000;
+      }
+    .contact p {
+          text-align: center;
+          position: relative;
+          margin-top:100px;
+          font-family: Verdana, sans-serif;
+        }
+    .content {
+          border: 1px solid white;
+          position: relative;
+          float: right;
+          margin-top: 10px;
+          width: 79%;
+          margin-bottom: 10px;
+          font-family: Verdana, sans-serif;
+          
+          }
+     
+
+    footer {
+          border: 1px solid white;
+          position: relative;
+          height: 50px;
+          background-color: none;
+          clear: both;
+          font-family: Verdana, sans-serif;
+          background-color: #F4EBC3;
+          }
+     
