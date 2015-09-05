@@ -10,4 +10,4 @@ The easiest aspect to implement was probably setting the dimensions of the eleme
 What did you learn about adding and formatting elements with CSS in this challenge?
 I learned how to create classes and other selectors and how to add them in CSS. I learned how positioning and formatting properties might interact. Also, many variables could be involved in formatting elements and each one has an effect on the element which can cause the element to behave in strange ways.
 
-Click [here](huangkc.github.io/index.html) to go to my site.
+Click [here](http://huangkc.github.io/index.html) to go to my site.
