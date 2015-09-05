@@ -1,0 +1,17 @@
+	
+    .content ul {
+     	list-style-type: none;
+        position: relative;
+        font-family: Verdana, sans-serif;
+
+     }
+     .content ul li a {
+        text-decoration: none;
+        color: navy;
+        font-family: Verdana, sans-serif;
+        font-weight: bold;
+        padding: 5px;
+        display: block;
+      }
+
+    
