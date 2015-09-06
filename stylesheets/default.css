@@ -1,6 +1,5 @@
-   body {background-color: white;
-    /*background: url(../imgs/background.jpeg);*/
-    background-size: cover;
+   body {
+    background-color: #eafbff;;
     }
        
    header {
@@ -17,6 +16,7 @@
    header nav ul {
           margin-top: 122px; 
           padding: 0px;
+
           }
    header nav li {
           display: inline;
@@ -26,6 +26,7 @@
           font-family: Verdana, sans-serif;
           display: block; 
           width: 150px;
+          font-size: 1em;
           font-weight: bold;
           background-color:#B9D7D9;
           text-align: center;
@@ -48,6 +49,7 @@
           width: 20%;
           height: 400px;
           margin-bottom: 20px;
+          font-size: 1em;
           }
     aside ul {
         list-style-type: none;
@@ -73,7 +75,7 @@
           font-family: Verdana, sans-serif;
         }
     .content {
-          font-size: 28px;
+          font-size: 2em;
           position: relative;
           float: right;
           margin-top: 10px;
@@ -93,5 +95,6 @@
           clear: both;
           font-family: Verdana, sans-serif;
           background-color: #F4EBC3;
+          font-size: 1em;
         }
      
