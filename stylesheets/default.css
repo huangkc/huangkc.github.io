@@ -1,5 +1,5 @@
-   body {background-color: #ffeac9;
-    background: url(../imgs/background.jpeg);
+   body {background-color: white;
+    /*background: url(../imgs/background.jpeg);*/
     background-size: cover;
     }
        
@@ -80,7 +80,7 @@
           width: 79%;
           margin-bottom: 10px;
           font-family: Verdana, sans-serif;  
-                     color:white;   
+          color: #000000;   
           text-align: center;
         }
     .content img {
