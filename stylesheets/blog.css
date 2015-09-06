@@ -1,21 +1,16 @@
-    
-    
     body { 
     background: none;
     background-color: #eafbff;
-
     background-size: cover;
-    
     }
-    header {
-        background: url(../imgs/bg_img.png);
 
+    header {
+    background: url(../imgs/bg_img.png);
     }
-    
     .content {
-        font-size: 15px;
+        font-size: 1em;
         text-align: left;
-        color: black;
+        color: #000000;
     }	
     .content img {border-radius: 0%;}
     .content ul {
