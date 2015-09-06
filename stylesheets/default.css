@@ -11,7 +11,8 @@
            height: 160px;
            margin-bottom: 10px;   
            background-color: lightgray;
-           background: url(../imgs/banner.png);
+           /*background: url(../imgs/banner.png);*/
+           background: url(../imgs/bg_img.png)
           }
    header nav ul {
           margin-top: 122px; 
