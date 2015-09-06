@@ -1,5 +1,10 @@
-    header {
-           border: 1px solid white;
+   body {background-color: #ffeac9;
+    background: url(../imgs/background.jpeg);
+    background-size: cover;
+    }
+       
+   header {
+           border: 1px solid gray;
            position: relative;
            width: 100%;
            margin-top: 0px;
@@ -67,14 +72,19 @@
           font-family: Verdana, sans-serif;
         }
     .content {
-          border: 1px solid white;
+          font-size: 28px;
           position: relative;
           float: right;
           margin-top: 10px;
           width: 79%;
           margin-bottom: 10px;
-          font-family: Verdana, sans-serif;
+          font-family: Verdana, sans-serif;  
+                     color:white;   
+          text-align: center;
         }
+    .content img {
+      border: none;
+      border-radius: 100%;}
      footer {
           border: 1px solid white;
           position: relative;
