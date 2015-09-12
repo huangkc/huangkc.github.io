@@ -1,101 +1,104 @@
-   body {
-    background-color: #eafbff;;
-    }
-       
+/*   body{background-color: #CCFFCC;}   */
+   
+   header p {
+          color: white; 
+          font-size: 1.5em; 
+          margin-left: 1em; 
+          font-family: Magneto, sans-serif;
+         }    
    header {
-           border: 1px solid gray;
+           border: 0.1em solid white;
            position: relative;
            width: 100%;
-           margin-top: 0px;
-           height: 160px;
-           margin-bottom: 10px;   
+           margin-top: 0%;
+           height: 7em;
+           margin-bottom: 0%;   
            background-color: lightgray;
            /*background: url(../imgs/banner.png);*/
-           background: url(../imgs/bg_img.png)
+           /*background: url(../imgs/bg_img.png)*/
+           background: url(../imgs/clouds01.png);           
+           background-size: cover;
           }
    header nav ul {
-          margin-top: 122px; 
+          position: relative;
+          margin-top: -1em; 
           padding: 0px;
-
           }
    header nav li {
           display: inline;
           float: right;
-        } 
+          } 
    header nav a {
-          font-family: Verdana, sans-serif;
+          font-family: sans-serif;
           display: block; 
-          width: 150px;
-          font-size: 1em;
-          font-weight: bold;
-          background-color:#B9D7D9;
+          width: 6em;
+          font-size: 1.2em;
+          background-color: none;
           text-align: center;
-          padding: 10px;
+          padding: .6em;
           text-decoration: none;
-          text-transform: uppercase;
+          text-transform: lowercase;
           }
    header nav li a:hover {
-        color: #000000;
+        color: red;
           }
    header nav li a {
-        color: red;
+        color: white;
         }
    aside {
-          background-color: #B9D7D9;
-          border: 1px solid white;
-          position: relative;
+          position: absolute;
           float: left;
-          margin-top: 10px;
+          margin-top: 2em;
+          margin-left: 3em;
           width: 20%;
-          height: 400px;
-          margin-bottom: 20px;
-          font-size: 1em;
+          height: 50%;
+          background-color: #F4EBC3;
+/*          background: url(../imgs/banner.png);*/
           }
-    aside ul {
+    footer ul {
         list-style-type: none;
         position: relative;
         text-align: center;
         }
-    aside ul li a {
-        text-transform: uppercase;
+    footer nav li {
+          display: inline;
+          float: left;
+        }
+    footer ul li a {
+        text-transform: lowercase;
         text-decoration: none;
-        color: red;
-        font-family: Verdana, sans-serif;
-        font-weight: bold;
-        padding: 5px;
+        color: white;
+        font-family: sans-serif;
+        padding: 0.7em;
         display: block;
       }
-    aside ul li a:hover {
-        color: #000000;
+    footer li a:hover {
+        color: red;
       }
-    .contact p {
-          text-align: center;
-          position: relative;
-          margin-top:100px;
-          font-family: Verdana, sans-serif;
-          font-size: .9em;
-        }
+    
     .content {
-          font-size: 2em;
+          font-size: 1em;
           position: relative;
           float: right;
-          margin-top: 10px;
-          width: 79%;
-          margin-bottom: 10px;
-          font-family: Verdana, sans-serif;  
-          color: #000000;   
-          text-align: center;
-        }
-    .content img {
-      border: none;
-      border-radius: 100%;}
+          width: 70%;
+          font-family: sans-serif;  
+          background-repeat: no-repeat;
+          margin-top: 1em;
+          margin-right: 4em;
+          margin-bottom: 1em;
+          padding-right: 80px;
+          padding-left: 80px; 
+          box-sizing: border-box;*/
+           }
      footer {
-          border: 1px solid white;
           position: relative;
-          height: 50px;
+          margin-top: 30em;
+          height: 4em;
           clear: both;
-          font-family: Verdana, sans-serif;
+          font-family: sans-serif;
           background-color: #F4EBC3;
-          font-size: .8em;
+          background: url(../imgs/clouds01.png);
+/*          background: url(../imgs/banner.png);    */
+          background-size: cover;
         }
      
