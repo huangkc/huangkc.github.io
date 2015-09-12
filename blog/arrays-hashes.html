@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Arrays and Hashes Blog</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+</head>
+
+<body>
+
+<header><p>Kai C Huang</p>
+    <nav>
+      <ul>           
+      <li><a href="#">Links</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Resume</a></li>
+        <li><a href="#">About me</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="https://huangkc.github.io/blog/index.html">Blog</a></li>
+        <li><a href="https://huangkc.github.io/index.html">Home</a></li>
+      </ul>
+    </nav>
+</header>  
+
+<main>
+  <article class="content">
+    <h1>Arrays and Hashes</h1>
+    <h2></h2>
+    <h4>9/10/2015</h4>
+    <hr>
+    <section> 
+  
+    <p>One of the important functions of a program is to store objects. This functionality allows us to, among other things, organize, present, search, and modify these objects. Arrays and hashes are two ways in which a collection of of objects can be held. 
+    </p> 
+    
+    <h4>Arrays</h4>
+    <p>Unlike variables, arrays can contain any number of objects of various types, e.g. strings, numbers, other arrays, etc. Basicaly an array is a list whose contents are ordered, or indexed. This way, the program can remember where each item is stored in case we need to access them. A list of names in an array, for example, might look some thing like:</p>
+
+    <p> colors = ["red", "white", "blue"] </p>
+
+    <p>In this example, "red" occupies the first position, which is idexed at 0, "white" occupies the next position, which is indexed at 1, and "blue" is at postion 2. If a new color is added, it would go to the end of the list at position 3. 
+
+    <p>The list, of course, can contain book/movie/ magazine titles, contact information, personal data, and so on. Since each item is associated with a unique index number, we can add to the list, rearrange the list (sort, alphabetize, etc.), delete items from the list, and modify each item in the list.
+    </p>
+
+    <h4>Hashes</h4>
+
+    <p>What if we have a collection of objects to keep track of that do not fit neatly in an ordered list? For example, products and their prices or someone's personal data. Hashes are a useful tool for holding these objects. Hashes are very similar to arrays except the indexes of objects in a hash do not have to be consecutive numbers. Objects in a hash are stored in key/value pairs. For example: </p>
+    <p>
+      John = { </br>
+                "First name" => "John",</br>
+                "Last name" => "Smith",</br>
+                "Age" => 32,</br>
+                "Address" "123 Main Street"</br>
+              }</br>
+              
+    </p>
+
+    <p>By associating keys (First Name) with values (John), if I need to access a piece information about John, I can easily find it. Like arrays, hashes also have the ability to add, delete, display, and modify their contents. You can also transform or combine arrays and/or hashes based on your needs. These manipulation techniques add to the variety of data handling techniques for different situations.</p> 
+
+    <p>Arrays and hashes are two ways we can store a collection of information. Their different atrributes afford them very powerful capability to store and retrieve information. Obviously there is a lot more to these two classes of objects. Click <a href="https://pine.fm/LearnToProgram/chap_07.html">here</a> to learn more about arrays and <a href="https://pine.fm/LearnToProgram/chap_09.html">here</a> to learn more about hashes.
+    
+    </section>
+  </article>
+</main>
+
+<aside></aside>
+
+<footer>    
+  <nav>
+    <ul>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">Linkedin</a></li>
+      <li><a href="#">Github</a></li>
+    </ul>  
+  </nav>
+</footer>
+</body>
+</html>
