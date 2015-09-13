@@ -1,5 +1,5 @@
    body { 
-        background: url(../imgs/bg_img.png);
+        /*background: url(../imgs/bg_img.png);*/
         background-size: cover;
 
     /*background-color: #CCFFCC;*/}   
@@ -96,7 +96,7 @@
            }
      footer {
           position: relative;
-          margin-top: 30em;
+          margin-top: 33.5em;
           margin-bottom: 0em;
           height: 3em;
           clear: both;
