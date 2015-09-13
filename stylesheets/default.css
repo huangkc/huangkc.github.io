@@ -1,17 +1,21 @@
-/*   body{background-color: #CCFFCC;}   */
+   body { 
+        background: url(../imgs/bg_img.png);
+        background-size: cover;
+
+    /*background-color: #CCFFCC;*/}   
    
    header p {
           color: white; 
+          padding-top: 1em;
           font-size: 1.5em; 
           margin-left: 1em; 
           font-family: Magneto, sans-serif;
          }    
-   header {
-           border: 0.1em solid white;
+   header {          
            position: relative;
            width: 100%;
-           margin-top: 0%;
-           height: 7em;
+           margin-top: -2%;
+           height: 5.5em;
            margin-bottom: 0%;   
            background-color: lightgray;
            /*background: url(../imgs/banner.png);*/
@@ -21,8 +25,8 @@
           }
    header nav ul {
           position: relative;
-          margin-top: -1em; 
-          padding: 0px;
+          margin-top: -2em; 
+          padding: 0em;
           }
    header nav li {
           display: inline;
@@ -52,7 +56,7 @@
           margin-left: 3em;
           width: 20%;
           height: 50%;
-          background-color: #F4EBC3;
+          /*background-color: #F4EBC3;*/
 /*          background: url(../imgs/banner.png);*/
           }
     footer ul {
@@ -93,7 +97,8 @@
      footer {
           position: relative;
           margin-top: 30em;
-          height: 4em;
+          margin-bottom: 0em;
+          height: 3em;
           clear: both;
           font-family: sans-serif;
           background-color: #F4EBC3;
