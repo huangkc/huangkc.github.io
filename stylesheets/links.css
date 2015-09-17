@@ -1,21 +1,22 @@
    body { 
         /*background: url(../imgs/Clouds01.png);*/
-        background: url(../imgs/banner.png);
+        /*background: url(../imgs/banner.png);*/
            /*background: url(../imgs/bg_img.png)*/
         background-size: cover;
-
-    /*background-color: #CCFFCC;*/}   
+        background-color: #CCFFCC;}   
    
    header p {
           color: white; 
-          padding-top: 1em;
+          padding-top: 0em;
+          padding-bottom:1em;
           font-size: 1.5em; 
           margin-left: 1em; 
           font-family: Magneto, sans-serif;
          }    
    header {          
            position: relative;
-           width: 100%;
+           width: 70%;
+           padding:20px;
            margin-top: -2%;
            height: 5.5em;
            margin-bottom: 0%;   
@@ -24,11 +25,12 @@
            /*background: url(../imgs/bg_img.png)*/
            background: url(../imgs/Clouds01.png);           
            background-size: cover;
+           margin-left: 15%;
           }
    header nav ul {
           position: relative;
           margin-top: -2em; 
-          padding: 0em;
+          padding: 0.5em;
           }
    header nav li {
           display: inline;
@@ -41,7 +43,7 @@
           font-size: 1.2em;
           background-color: none;
           text-align: center;
-          padding: .6em;
+          padding:0px;
           text-decoration: none;
           text-transform: lowercase;
           }
@@ -51,17 +53,17 @@
    header nav li a {
         color: white;
         }
-   aside {
-          /*border: 1px solid red;*/
+/*   aside {
+          border: 1px solid red;
           position: absolute;
           float: left;
           margin-top: 2em;
           margin-left: 3em;
           width: 20%;
           height: 50%;
-          /*background-color: #F4EBC3;*/
-/*          background: url(../imgs/banner.png);*/
-          }
+          background-color: #F4EBC3;
+          background: url(../imgs/banner.png);
+          }*/
     footer ul {
         list-style-type: none;
         position: relative;
@@ -76,42 +78,45 @@
         text-decoration: none;
         color: white;
         font-family: sans-serif;
-        padding: 0.7em;
+        padding: 1em;
         display: block;
       }
     footer li a:hover {
         color: red;
       }
     
-    .content {
+
+    .favorites {
           font-size: 1em;
           position: relative;
-          float: right;
-          width: 70%;
+          width: 65%;
           font-family: sans-serif;  
           background-repeat: no-repeat;
           margin-top: 1em;
-          margin-right: 4em;
+          /*margin-right: 4em;*/
           margin-bottom: 1em;
           padding-right: 80px;
           padding-left: 80px; 
           box-sizing: border-box;
-          
+          border: none;
+          margin-left:20%;
            }
+      .favorites p {font-size: 1em;}
+      .favorites ul {}
+      .favorites ul li {}
+
      footer {
-          position: relative;
-          margin-top: 33.5em;
+          margin-left: 15%;
+          width: 72%;
+          position: absolute;
+          margin-top: 5em;
           margin-bottom: 0em;
-          height: 3em;
+          height: 4em;
           clear: both;
           font-family: sans-serif;
           background-color: #F4EBC3;
           background: url(../imgs/Clouds01.png);
 /*          background: url(../imgs/banner.png);    */
           background-size: cover;
-        }
-        .button {
-
-
         }
      
