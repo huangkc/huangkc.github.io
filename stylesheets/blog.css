@@ -1,6 +1,11 @@
-    body {background: none;}    
+    body {
+      background: none;
+      /*background: url(../imgs/Clouds01.png); 
+      background-size: cover;*/
+  }    
     .content {
-        font-size: 1em;
+        font-family: Constantia;
+        font-size: 1.3em;
         text-align: left;
         background: none;        
     }
