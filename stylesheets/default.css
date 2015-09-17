@@ -1,5 +1,7 @@
    body { 
-        background: url(../imgs/bg_img.png);
+        /*background: url(../imgs/Clouds01.png);*/
+        background: url(../imgs/banner.png);
+           /*background: url(../imgs/bg_img.png)*/
         background-size: cover;
 
     /*background-color: #CCFFCC;*/}   
@@ -50,6 +52,7 @@
         color: white;
         }
    aside {
+          /*border: 1px solid red;*/
           position: absolute;
           float: left;
           margin-top: 2em;
@@ -92,7 +95,8 @@
           margin-bottom: 1em;
           padding-right: 80px;
           padding-left: 80px; 
-          box-sizing: border-box;*/
+          box-sizing: border-box;
+          
            }
      footer {
           position: relative;
@@ -105,5 +109,9 @@
           background: url(../imgs/Clouds01.png);
 /*          background: url(../imgs/banner.png);    */
           background-size: cover;
+        }
+        .button {
+
+
         }
      
