@@ -29,12 +29,20 @@
     <h4>9/17/2015</h4>
     <hr>
     <section> 
-    In the last post, we introduced the idea of using containers to hold collections of objects, such as arrays and hashes. Now we will look at Enumerables, which provides methods that can be used to manipulate collections of objects. 
+    <p>
+    The last post introduced the idea of using containers such as arrays and hashes to hold collections of objects. One of the goals of storing objects in a collection is so we can filter, search, sort, or transform them. Now we will look at Enumerables, which provide methods that can be used to manipulate collections of objects. </p>
 
-    Give examples
 
-group_by method
- partition method
+
+    <p>Suppose I have a list of names and I would like to group them based on their length. I could use the #group_by method:</p>
+    <p>
+    <script src="https://gist.github.com/huangkc/7113533eafc3d1b129e2.js"></script>
+    </p>
+
+    The array of names has been transformed into a hash containing the names group by their lengths.
+
+
+    <p>A method that is related to #group_by is <em>partition</em>
     
     
     </section>
@@ -51,6 +59,7 @@ group_by method
       <li><a href="https://github.com/huangkc">Github</a></li>
        <li><a href="mailto:you@yourdomain.com">email</a></li>
     </ul>  
+    <p>copyright 2015</p>
   </nav>
 </footer>
 </body>

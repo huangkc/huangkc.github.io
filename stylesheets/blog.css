@@ -1,13 +1,26 @@
     body {
       background: none;
+      background: url(../imgs/HIRES008full.png);
       /*background: url(../imgs/Clouds01.png); 
       background-size: cover;*/
   }    
     .content {
-        font-family: Constantia;
-        font-size: 1.3em;
-        text-align: left;
-        background: none;        
+          font-family: Constantia;
+          font-size: 1.1em;
+          text-align: left;
+          background: none;   
+          position: relative;
+          float: right;
+          width: 70%;
+          color: black;
+          background-repeat: no-repeat;
+          margin-top: 1em;
+          margin-right: 4em;
+          margin-bottom: 1em;
+          padding-right: 180px;
+          padding-left: 80px; 
+          box-sizing: border-box; 
+          border: none;    
     }
     
     .content ul {
@@ -17,7 +30,7 @@
 
      .content ul li a {
         text-decoration: none;
-        font-family: sans-serif;
+        font-family: Constantia;
         color: black;
         padding: 0.8em;
         font-size: 1.2em;
@@ -32,10 +45,13 @@
           margin-left: 3em;
           margin-bottom: 2em;
           width: 20%;
-          height: 60%;
-          background: url(../imgs/Clouds01.png);
+          height: 70%;
+          background-size: cover;
+          /*background: url(../imgs/Clouds01.png);*/
           background-repeat: no-repeat;
-          }
+          /*background: url(../../HIRES131.png);*/
+          background: url(../../HIRES130.png);
+                    }
      
 /*    -moz-column-count: 2;
     -moz-column-gap: 1em;
