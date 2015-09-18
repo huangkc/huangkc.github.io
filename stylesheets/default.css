@@ -1,10 +1,11 @@
    body { 
         /*background: url(../imgs/Clouds01.png);*/
-        background: url(../imgs/banner.png);
-           /*background: url(../imgs/bg_img.png)*/
-        background-size: cover;
-
-    /*background-color: #CCFFCC;*/}   
+/*        background: url(../imgs/banner.png);*/
+/*background: url(../../new_background.png);*/
+   background: url(../imgs/HIRES123.png);
+        background-size: cover;  
+        
+         /*background-color: #CCFFCC;*/}   
    
    header p {
           color: white; 
@@ -14,6 +15,7 @@
           font-family: Magneto, sans-serif;
          }    
    header {          
+
            position: relative;
            width: 100%;
            margin-top: -2%;
@@ -27,21 +29,19 @@
           }
    header nav ul {
           position: relative;
-          margin-top: -2em; 
-          padding: 0em;
+          margin-top: -0.5em; 
           }
    header nav li {
           display: inline;
           float: right;
           } 
-   header nav a {
-          font-family: sans-serif;
+   header nav a {          
+          font-family: Aharoni, Gill sans MT;
           display: block; 
           width: 6em;
           font-size: 1.2em;
           background-color: none;
           text-align: center;
-          padding: .6em;
           text-decoration: none;
           text-transform: lowercase;
           }
@@ -62,6 +62,17 @@
           /*background-color: #F4EBC3;*/
 /*          background: url(../imgs/banner.png);*/
           }
+    footer p {
+      float: right;
+      margin-right: 0.5em;
+      margin-top: -0.3em;
+      text-transform: lowercase;
+      color: white;
+      padding: 0.7em;
+      display: block;
+      font-family: Aharoni;
+      }
+
     footer ul {
         list-style-type: none;
         position: relative;
@@ -75,15 +86,27 @@
         text-transform: lowercase;
         text-decoration: none;
         color: white;
-        font-family: sans-serif;
         padding: 0.7em;
         display: block;
+        font-family: Aharoni;
       }
     footer li a:hover {
         color: red;
       }
     
-    .content {
+      .content {
+          font-size:1.2em;
+          font-family: Verdana;
+          width: 40%;
+          float:left;
+          border: none;
+          box-sizing: border-box;
+          margin-top:5%;
+          margin-left: 15%;
+          color: white;
+      }
+
+/*    .content {
           font-size: 1em;
           position: relative;
           float: right;
@@ -97,21 +120,17 @@
           padding-left: 80px; 
           box-sizing: border-box;
           
-           }
+           }*/
      footer {
           position: relative;
           margin-top: 33.5em;
           margin-bottom: 0em;
           height: 3em;
           clear: both;
-          font-family: sans-serif;
           background-color: #F4EBC3;
           background: url(../imgs/Clouds01.png);
 /*          background: url(../imgs/banner.png);    */
           background-size: cover;
         }
-        .button {
-
-
-        }
+        
      
