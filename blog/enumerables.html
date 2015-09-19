@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Enumerables</title>
+  <title>Enumerable</title>
   <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
   <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
 </head>
@@ -12,7 +12,7 @@
 <header><p>Kai C Huang</p>
     <nav>
       <ul>           
-        <li><a href="#">Links</a></li>
+        <li><a href="https://huangkc.github.io/links.html">Links</a></li>
         <li><a href="#">Resume</a></li>
         <li><a href="#">About me</a></li>
         <li><a href="#">Projects</a></li>
@@ -24,26 +24,32 @@
 
 <main>
   <article class="content">
-    <h1>Enumerables</h1>
+    <h1>Enumerable</h1>
     <h2></h2>
     <h4>9/18/2015</h4>
     <hr>
     <section> 
     <p>
-    The last post introduced the idea of using containers such as arrays and hashes to hold collections of objects. One of the goals of storing objects in a collection is so we can perform filtering, searching, sorting and other operations. The Enumerable module provides methods that can be used to manipulate arrays and hashes, including transforming one to and from the other. </p>
+    The last post introduced the idea of using containers such as arrays and hashes to hold collections of objects. One of the goals of storing objects in a collection is so we can perform various operation on them. The Enumerable module provides methods that can be used to manipulate arrays and hashes, including transforming one to and from the other. </p>
 
-    <p>Suppose I have an list of books stored in an array and I would like to group them based on the length of their titles, I could use the #group_by method:</p>
+    <p>Suppose I have a list of books stored in an array and I would like to group them based on the length of their titles, I could use call the #group_by method on the "books" array:</p>
 
     <p><script src="https://gist.github.com/huangkc/9e7de8eff7f6c0dedbaf.js"></script>
     </p>
 
-    <p>The array of title has been transformed into a hash with titles as the value and lengths as the key:
+    <p>The #group_by method transfoms the array into a hash with titles as the value and lengths as the key:
     </p>
     <p>
      <script src="https://gist.github.com/huangkc/0921dc08c9e36368fedf.js"></script>
      </p>
 
+     <p>To carry it a little further, I can also arrange a list based on the results of a code block:
 
+     <p><script src="https://gist.github.com/huangkc/9e4753e8f99f9a23930a.js"></script></p>
+
+     <p>Here, the numbers are returned as values in the hash and the keys are the outcome from the code block. </p>
+
+     <p>Selecting and grouping elements in a list are commonly used data operations. Once grouped, they can be sorted, filtered, or otherwise transformed based on out needs. These simple examples demonstrate one of thebasic Ruby techniques for organizing data. In future posts we will see how this method can be combined with other methods to meet the needs of a variety of selection scenarios in our programs.</p>
     
     </section>
   </article>
