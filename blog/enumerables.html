@@ -30,20 +30,20 @@
     <hr>
     <section> 
     <p>
-    The last post introduced the idea of using containers such as arrays and hashes to hold collections of objects. One of the goals of storing objects in a collection is so we can filter, search, sort, or transform them. Now we will look at Enumerables, which provide methods that can be used to manipulate collections of objects. </p>
+    The last post introduced the idea of using containers such as arrays and hashes to hold collections of objects. One of the goals of storing objects in a collection is so we can perform filtering, searching, sorting and other operations. The Enumerable module provides methods that can be used to manipulate arrays and hashes, including transforming one to and from the other. </p>
 
+    <p>Suppose I have an list of books stored in an array and I would like to group them based on the length of their titles, I could use the #group_by method:</p>
 
-
-    <p>Suppose I have a list of names and I would like to group them based on their length. I could use the #group_by method:</p>
-    <p>
-    <script src="https://gist.github.com/huangkc/7113533eafc3d1b129e2.js"></script>
+    <p><script src="https://gist.github.com/huangkc/9e7de8eff7f6c0dedbaf.js"></script>
     </p>
 
-    The array of names has been transformed into a hash of names grouped by their length.
+    <p>The array of title has been transformed into a hash with titles as the value and lengths as the key:
+    </p>
+    <p>
+     <script src="https://gist.github.com/huangkc/0921dc08c9e36368fedf.js"></script>
+     </p>
 
 
-    <p>A method that is related to #group_by is <em>partition</em>
-    
     
     </section>
   </article>
@@ -57,7 +57,7 @@
         <li><a href="https://twitter.com/huangkc05">Twitter</a></li>
         <li><a href="https://www.linkedin.com/profile/view?id=AAIAABhZyJcBqLCzxorUtss6f_VmqnkT1GbZl2A&trk=nav_responsive_tab_profile">Linkedin</a></li>
         <li><a href="https://github.com/huangkc">Github</a></li>
-         <li><a href="mailto:you@yourdomain.com">email</a></li>
+         <li><a href="mailto:huangkc05@gmail.com">email</a></li>
       </ul>
       <p>copyright 2015</p>
   </nav>
