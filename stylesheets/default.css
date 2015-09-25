@@ -2,10 +2,11 @@
         /*background: url(../imgs/Clouds01.png);*/
 /*        background: url(../imgs/banner.png);*/
 /*background: url(../../new_background.png);*/
-   background: url(../imgs/HIRES123.png);
-        background-size: cover;  
-        
-         /*background-color: #CCFFCC;*/}   
+        background: url(../imgs/HIRES123.png);
+        /*background-size: cover;  */
+        background-size: 100% 100%;
+
+        /*background-color: #CCFFCC;*/}   
    
    header p {
           color: white; 
@@ -83,12 +84,16 @@
           float: left;
         }
     footer ul li a {
+      margin-top: -0.3em;
         text-transform: lowercase;
         text-decoration: none;
         color: white;
         padding: 0.7em;
         display: block;
         font-family: Aharoni;
+      }
+      footer ul li a img {
+        border-radius: 0.5em;
       }
     footer li a:hover {
         color: red;

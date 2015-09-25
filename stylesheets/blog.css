@@ -1,5 +1,7 @@
     body {
       background: none;
+      background-image: 
+      -webkit-linear-gradient(top, #E8E8E8,#CCFFCC);
 /*      background: url(../imgs/HIRES008full.png);*/
       /*background: url(../imgs/Clouds01.png); 
       background-size: cover;*/
@@ -19,6 +21,8 @@
           margin-bottom: 1em;
           padding-right: 180px;
           padding-left: 80px; 
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
           box-sizing: border-box; 
           border: none;    
     }
@@ -37,6 +41,22 @@
       }
       
       .content a:hover {color: red;}
+
+      /*.picture {}*/
+
+      .column {
+        -webkit-column-rule: 1px solid lightblue;
+        border: 1px solid red;
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+        -webkit-column-gap: 1em;
+        -moz-column-gap: 1em;
+        column-gap: 1em;
+        -webkit-column-width: 5em;
+        -moz-column-width: 5em;
+        column-width: 5em;
+     }
       
       aside {
           position: absolute;
@@ -51,16 +71,11 @@
           background-repeat: no-repeat;
           /*background: url(../../HIRES131.png);*/
           background: url(../imgs/HIRES130.png);
+          -webkit-transition: all 6s ease-out;
+          transition: all 6s ease-out;
                     }
      
-/*    -moz-column-count: 2;
-    -moz-column-gap: 1em;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 1em;
-    column-count: 2;
-    column-gap: 0px;
-    -webkit-column-width: 5em;
-     }*/
+
 
 /*
      
