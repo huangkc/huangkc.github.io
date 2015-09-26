@@ -2,21 +2,24 @@
         /*background: url(../imgs/Clouds01.png);*/
 /*        background: url(../imgs/banner.png);*/
         /*background: url(../../new_background.png);*/
+        /*background: url(../imgs/bg_img.png);*/
         background: url(../imgs/HIRES123.png);
+        /*background-size: 100% 100%;*/
         background-size: cover;  
-        background-size: 100% 100%;
-        /*animation-name: main;
-          animation-duration: 10s;
+          animation-name: bd;
+          animation-duration: 20s;
           animation-timing-function: ease-in-out;
-          animation-delay: 2s;
+          animation-delay: 0s;
           animation-iteration-count: 2;
-          animation-direction: alternate;*/
+          animation-direction: alternate;
         /*background-color: #CCFFCC;*/}   
              
-         /* @keyframes main {
-            from {background: url(../imgs/HIRES123.png);}
-            to {background: url(../imgs/Clouds01.png);}
-          }*/
+          @keyframes bd {
+            from {background: url(../imgs/HIRES123.png); 
+              background-size: cover;}
+            to {background: url(../imgs/bg_img.png);
+              background-size: cover;}
+          }
 
    header p {
           color: white; 
