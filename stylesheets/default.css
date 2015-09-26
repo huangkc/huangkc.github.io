@@ -1,13 +1,23 @@
    body { 
         /*background: url(../imgs/Clouds01.png);*/
 /*        background: url(../imgs/banner.png);*/
-/*background: url(../../new_background.png);*/
+        /*background: url(../../new_background.png);*/
         background: url(../imgs/HIRES123.png);
-        /*background-size: cover;  */
+        background-size: cover;  
         background-size: 100% 100%;
-
+        /*animation-name: main;
+          animation-duration: 10s;
+          animation-timing-function: ease-in-out;
+          animation-delay: 2s;
+          animation-iteration-count: 2;
+          animation-direction: alternate;*/
         /*background-color: #CCFFCC;*/}   
-   
+             
+         /* @keyframes main {
+            from {background: url(../imgs/HIRES123.png);}
+            to {background: url(../imgs/Clouds01.png);}
+          }*/
+
    header p {
           color: white; 
           padding-top: 1em;
@@ -27,7 +37,21 @@
            /*background: url(../imgs/bg_img.png)*/
            background: url(../imgs/Clouds01.png);           
            background-size: cover;
+          /* animation-name: heading;
+          animation-duration: 20s;
+          animation-timing-function: linear;
+          animation-delay: 2s;
+          animation-iteration-count: 2;
+          animation-direction: alternate;*/
           }
+
+
+         /* @keyframes heading {
+            from {background: url(../imgs/Clouds01.png);}
+            to {background: url(../imgs/banner.png);}
+          }*/
+
+
    header nav ul {
           position: relative;
           margin-top: -0.5em; 

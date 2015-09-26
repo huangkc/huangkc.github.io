@@ -71,14 +71,23 @@
           background-repeat: no-repeat;
           /*background: url(../../HIRES131.png);*/
           background: url(../imgs/HIRES130.png);
-          -webkit-transition: all 6s ease-out;
-          transition: all 6s ease-out;
-                    }
+          /* -webkit-transition: all 3s ease-out;
+          transition: all 3s ease-out;*/
+          animation-name: sidebar;
+          animation-duration: 25s;
+          animation-timing-function: ease-in-out;
+          animation-delay: 2s;
+          animation-iteration-count: 2;
+          animation-direction: alternate;
+              }
+          
+          @keyframes sidebar {
+            from {background: url(../imgs/HIRES130.png);}
+            to {background: url(../imgs/Clouds01.png);}
+          }
      
-
-
-/*
      
+/* 
      
 
      footer {
