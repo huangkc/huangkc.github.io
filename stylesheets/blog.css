@@ -1,6 +1,7 @@
     body {
       background: none;
       background-image: none;
+      animation:none;
       /*-webkit-linear-gradient(top, #E8E8E8,#CCFFCC);*/
 /*      background: url(../imgs/HIRES008full.png);*/
       /*background: url(../imgs/Clouds01.png); 
@@ -94,7 +95,7 @@
           animation-name: sidebar;
           animation-duration: 25s;
           animation-timing-function: ease-in-out;
-          animation-delay: 2s;
+          animation-delay: 3s;
           animation-iteration-count: 2;
           animation-direction: alternate;
               }
