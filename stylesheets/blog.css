@@ -1,11 +1,20 @@
     body {
       background: none;
-      background-image: 
-      -webkit-linear-gradient(top, #E8E8E8,#CCFFCC);
+      background-image: none;
+      /*-webkit-linear-gradient(top, #E8E8E8,#CCFFCC);*/
 /*      background: url(../imgs/HIRES008full.png);*/
       /*background: url(../imgs/Clouds01.png); 
       background-size: cover;*/
-  }    
+  }   
+
+  /*header {
+    animation-name: sidebar;
+          animation-duration: 25s;
+          animation-timing-function: ease-in-out;
+          animation-delay: 2s;
+          animation-iteration-count: 2;
+          animation-direction: alternate;
+  } */
     .content {
           font-family: Constantia;
           font-size: 1.1em;

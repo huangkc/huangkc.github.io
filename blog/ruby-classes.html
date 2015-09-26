@@ -33,34 +33,40 @@
   <hr>
   <section>
   <p> 
-  We know that objects are the primary programming constructs in Ruby and that objects have methods. In this post we will distill these concpets further by examining <a href="http://rubylearning.com/satishtalim/writing_our_own_class_in_ruby.html"><strong>classes</strong></a>. In the code "ruby".length, ruby is a string <strong>object</strong> and #length is a method. When we say "ruby" is a string object, we mean that "ruby" is an object (or <strong>instance</strong>) of the string class. Every object in Ruby belongs to a class, and class provides object with methods. The number 1 is an object in the integer class, and mathematical operators such as +, -, /, and * are methods that are applicable to integers.</p>
+  We know that objects are the primary programming constructs in Ruby. In this post we will distill this concpets further by examining <a href="http://rubylearning.com/satishtalim/writing_our_own_class_in_ruby.html"><strong>classes</strong></a>. In the code "ruby".length, "ruby" is a string <strong>object</strong> and #length is a method. When we say "ruby" is a string object, we mean that "ruby" is an object (or <strong>instance</strong>) of the string class. Every object in Ruby belongs to a class, and class provides object with methods. The number 1 is an object in the integer class, and mathematical operators such as +, -, /, and * are methods that are applicable to integers.</p>
 
   <p>
-  We can think of classes as a way to organize objects with similar attributes and methods. Once the bleprint is drawn up, we can build as many objects as we want and give different attribute to each object without having to redraw the blueprint every time.
+  We can think of classes as a way to organize objects with similar attributes and methods. Once the blueprint is drawn up, we can create as many objects as we want and give different attribute to each object without having to redraw the blueprint every time.
   </p>
 
+  <p>An example of a class of objects is a personal profile that might contain information such as name, age, occupation, etc. To set up a peronal profile blueprint, we can define a class called Profile:</p> 
   
+<p> class Profile</br>
+        /attributes/</br>
+    end
 
+<p>Now we can create many profiles by assigning them different attributes such as first name, last name, hometown, age, etc. Individual profiles created under the class are known as instances of the class. The attributes are associated with instances and are known as instance variables.</p>
 
-  <p>Lets say we want to  </p>
+<p>In the string and integer examples above, we saw that objects can have their own methods. Once we have created instances of a class, we can also define our own instance methods to manipulate the instance variables. Suppose we want to change the name for a particular profile, we can define a method inside the class definition:
+
   <p>
-
-  We know that local variables only live inside methods. Instance variables are created when the class is created and they are visible outside of methods as long as they are within the class. 
-
-  In the string and integers examples, we saw that objects or instances can have their own methods. In those examples, the methods were built-in methods. It is possile to define our own instance methods inside the class.
-
-  use it to teach others when to use instance variables, instance methods, etc. for that object. 
+  def change_name</br>
+    /code block/</br>
+  end
   </p>
 
+  <p>To effect the change we would simply call the method on the instance of the class. Of course, operations that can be accomplished with instance methods are not limited to setting and changing the values of instance variables. Container objects such as arrays and hashes can be used inside instance methods and so can enumerable methods. Combining these concepts and techniques with classes and instances give us a suite of programming constructs for creating and organizing objects and for manipulating their behaviors. 
 
-
+  </p>
 
    </section>
    </article>
 </main>
 
 
-<aside></aside>
+<aside>
+
+</aside>
 <footer>
  <nav>
       <ul>
