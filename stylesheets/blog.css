@@ -64,7 +64,7 @@
         margin-top: 0.5em;
         float: right;
         position: relative;
-        
+        font-family: Constantia, sans-serif;
 /*      -webkit-column-rule: 1px solid lightblue;
         -moz-column-count: 2;
         -webkit-column-count: 2;
@@ -92,19 +92,19 @@
           background: url(../imgs/HIRES130.png);
           /* -webkit-transition: all 3s ease-out;
           transition: all 3s ease-out;*/
-          animation-name: sidebar;
+         /* animation-name: sidebar;
           animation-duration: 25s;
           animation-timing-function: ease-in-out;
           animation-delay: 3s;
           animation-iteration-count: 2;
-          animation-direction: alternate;
+          animation-direction: alternate;*/
               }
           
-          @keyframes sidebar {
+          /*@keyframes sidebar {
             from {background: url(../imgs/HIRES130.png);}
             to {background: url(../imgs/Clouds01.png);}
           }
-     
+     */
      
 /* 
      
