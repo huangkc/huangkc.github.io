@@ -36,7 +36,8 @@
           box-sizing: border-box; 
           border: none;    
     }
-    
+        
+    .profile {border-radius: 50%;}
     .content ul {
         list-style-type: none;
         position: relative;
