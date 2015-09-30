@@ -18,7 +18,8 @@
   } */
     .content {
           font-family: Constantia;
-          font-size: 1.1em;
+/*          font-family: inherit;*/
+          font-size: 1.3em;
           text-align: left;
           background: none;   
           position: relative;
