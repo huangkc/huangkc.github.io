@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript Objects</title>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+  </head>
+
+<body>
+
+<header><p>Kai C Huang</p>
+    <nav>
+      <ul>
+        <li><a href="https://huangkc.github.io/links.html">Links</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="https://huangkc.github.io/about.html">About Me</a></li>
+        <li><a href="http://huangkc.github.io/projects/index.html">Projects</a></li>
+        <li><a href="https://huangkc.github.io/blog/index.html">Blog</a></li>
+        <li><a href="https://huangkc.github.io/index.html">Home</a></li>
+      </ul>
+    </nav>
+</header>  
+
+<main>
+<article class="content">
+
+  <h1>JavaScript Objects</h1>
+  <h2></h2>
+  <h4>10/2/2015</h4>
+  <hr>
+  <section> 
+  
+  <p>The last few posts introduced Ruby objects such as arrays and hashes, enumerable module, and classes. Numbers, strings, and booleans are the main data types in both Ruby and JavaScript and objects let us group these and other data types to create many interesting and practical applications.
+
+  <p>A Ruby hash is an object containing key-value pairs that might look like this:</p>
+  
+  <script src="https://gist.github.com/huangkc/51b20408885c2cc0fcff.js"></script>
+  <p>To access values in a hash, we would refer to them by their keys. In our person example, john[first name"] would return the value "John" while john["age"] would return the value 32.
+  Writing john["address"]="123 Main Street" would add an address attribute so the object "john" looks like:</p>
+  <p><script src="https://gist.github.com/huangkc/2da681c8227fdba2f20d.js"></script></p>
+  
+  <p>JavaScript objects are very similar to Ruby hashes. They are variables that can contain many values. If we wanted to create the "person" object from the example above, we can define it like this:</p>
+  
+  <script src="https://gist.github.com/huangkc/1acfbc1ba33498cde60d.js"></script>
+  
+  <p>To access values inside this object we can use the dot notation. For example, person.firstName would return the value
+  "John" and person.age would return the value 32. To add an "address" property to "person," we can write:</p> 
+  <p>person.address="123 Main Street".</p>
+
+  <p>Notice that in the examples we are creating a single person object using the literal notation var variableName={ }. In cases where multiple instances of an object is required, JavaScript has a constructor function that can be used to create an object type. For example, the code below would create a person object type. 
+
+  <script src="https://gist.github.com/huangkc/1f4bf5a98907b7ac0005.js"></script>
+  </p>
+
+  <p>The function can take any number of arguments and we can then define specific persons in a way similar to defining a variable. To create a person with the same attributes as the person in the hash example, we would write:</p>
+  <p> var john = new person("John", "Doe", 32). </p>
+
+  <p>Note the use of the keyword <em>this</em> instead of a variable name. It acts as a placeholder for the new object. When a new person object is created using the constructor, the value of <em>this</em> becomes the new object. Last thing to point out is that whether created using the literal notation or the constructors function, JavaScript objects may take functions as their properties. This can opens up many opportunities for designing interactions among objects, which allows us to design, among other things, interactive web pages.</p> 
+  
+  </p>
+  </section>
+   </article>
+</main>
+
+
+<aside></aside>
+<footer>
+ <nav>
+      <ul>
+       <li><a href="https://twitter.com/huangkc05"><img src="../imgs/twitter.png" alt text="Twitter"></a></li>
+        <li><a href="https://www.linkedin.com/profile/view?id=AAIAABhZyJcBqLCzxorUtss6f_VmqnkT1GbZl2A&trk=nav_responsive_tab_profile"><img src="../imgs/linkedin.png" alt text="Linkedin"></a></li>
+        <li><a href="https://github.com/huangkc"><img src="../imgs/octocat.png" alt text="GitHub"></a></li>
+        <li><a href="mailto:huangkc05@gmail.com"><img src="../imgs/mail.png" alt text="Email"></a></li>
+      </ul>
+      <p>copyright 2015</p>
+  </nav>
+
+</footer>
+</body>
+</html>
