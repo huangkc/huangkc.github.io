@@ -38,7 +38,12 @@
           border: none;    
     }
         
-    .profile {border-radius: 50%;}
+    .profile {
+      height: 140px;
+      width: 130px;
+      border-radius: 140px;
+
+    }
     .content ul {
         list-style-type: none;
         position: relative;
@@ -60,8 +65,9 @@
         margin-left: -2em;
         position: relative;
       }
-
+      
       .column {
+        padding-left: 8px;
         width: 85%;
         margin-top: 0.5em;
         float: right;
