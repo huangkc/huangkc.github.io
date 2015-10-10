@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BLOG post</title>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+  </head>
+
+<body>
+
+<header><p>Kai C Huang</p>
+    <nav>
+      <ul>
+
+        <li><a href="https://huangkc.github.io/links.html">Links</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="https://huangkc.github.io/about.html">About Me</a></li>
+        <li><a href="http://huangkc.github.io/projects/index.html">Projects</a></li>
+        <li><a href="https://huangkc.github.io/blog/index.html">Blog</a></li>
+        <li><a href="https://huangkc.github.io/index.html">Home</a></li>
+      </ul>
+      
+    </nav>
+</header>  
+
+<main>
+<article class="content">
+
+  <h1>Recursive Methods in Ruby</h1>
+  <h2></h2>
+  <h4>10/10/2015</h4>
+  <hr>
+  <section> 
+  
+  <p>This post introduces <strong>recursion</strong>, a fundamental concept in programming. When we have a programming problem, we learned to break down the problem into smaller pieces. With problems that involve multiple repeated operations, iteration is a good option. Recursion is another approach, one that involves having a method or function call itself.</p>
+
+  <p>We can illustrate recursive methods in Ruby using the "finding the factorial problem." If we were to write a method to find the factorial of 3, we could break 3*2*1 into (3*2)*1. If n=3, then n-1=2 and n-2=1. So we are looking for n*(n-1)*(n-2). Using iteration, we would assign a variable the value 1 and multiply it by n, n-1, n-2, and so on until n reaches 1 (since we are only interested in finding factorials for positive numbers here). So the code looks something like this:</p>
+
+  <p><script src="https://gist.github.com/huangkc/7bc59f16b42e77e9394a.js"></script></p>
+  
+  <p>Using recursion, the pattern is the same, i.e. n*(n-1)*(n-2), but notice that we could call the method in the code above and pass in n, n-1, n-2, etc. until n reaches 1. This would result in the method evaluating the product of the arguments that are passed in each time. When 1 is passed in at the end, recursion stops. This is an example of the factorial problem modeled using recursive method:
+
+  <p><script src="https://gist.github.com/huangkc/c80e18e662f01eb18f89.js"></script></p>
+
+  <p>Recursion is about break down problems as well as division of labor. The two main parts of a recursive method are: the end goal, or base case, and the process of reducing the task towards the end goal. In the factorial example, the end goal is the condition n=1 and the process of reducing the task is to call the method itself and pass in a smaller n.</p>
+
+  <p>Recursive methods have many applications, for example in economic forecasting and financial modeling. But they can take up memory in the computer if the procesdure is very complex and sometimes this leads to <a href="https://en.wikipedia.org/wiki/Divide_and_conquer_algorithms#Implementation_issues">stack overflow</a>. As is with any method, it is important to weigh the advantages and disadvantages and determine if the situation is appropirate before adopting it.</p>
+
+  </section>
+  </article>
+</main>
+<aside></aside>
+<footer>
+ <nav>
+      <ul>
+       <li><a href="https://twitter.com/huangkc05"><img src="../imgs/twitter.png" alt text="Twitter"></a></li>
+        <li><a href="https://www.linkedin.com/profile/view?id=AAIAABhZyJcBqLCzxorUtss6f_VmqnkT1GbZl2A&trk=nav_responsive_tab_profile"><img src="../imgs/linkedin.png" alt text="Linkedin"></a></li>
+        <li><a href="https://github.com/huangkc"><img src="../imgs/octocat.png" alt text="GitHub"></a></li>
+        <li><a href="mailto:huangkc05@gmail.com"><img src="../imgs/mail.png" alt text="Email"></a></li>
+      </ul>
+      <p>copyright 2015</p>
+  </nav>
+
+</footer>
+</body>
+</html>
