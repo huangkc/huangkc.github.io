@@ -4,41 +4,29 @@
   color: black;
   text-align: center;}
 
-#nav, #feature, .article, .footer {
-margin-top: 20px;
+#nav, #feature {
+  background: url(../imgs/HIRES008full.png);
+  background-size: cover;
+}
+#nav, #feature, .article {
+margin-top: 10px;
 padding: 10px,0px,5px,0px; 
-position: relative;
 } 
 
-#feature, .article {
-  height: 200px;
-  background-color: none;
+.article{
   font-size: 0.9em;
+  background-color:none;
 }
+
 #feature {
-  background: url(../imgs/HIRES008full.png);
-  background-color: none;  
-  background-size: cover;
   height: 250px;
-  /*animation-name: main;
-          animation-duration: 25s;
-          animation-timing-function: ease-in-out;
-          animation-delay: 0s;
-          animation-iteration-count: 2;
-          animation-direction: alternate;*/
-}
-#feature p { 
-  color: white;
-  text-align: left;
-  font-size: 0.9em;
-  margin-left: 1em;
 }
 .article li {
   font-size:0.8em;
   text-align: left;  
   list-style-type: none;
 }
-#nav li, .footer #nav li {display: inline; 
+#nav li {display: inline; 
     padding: 5px;
     }
 #nav li a {text-decoration: none;
@@ -47,17 +35,11 @@ position: relative;
 #nav li a:hover {
         color: red;
           }
-body { 
-        /*background: url(../imgs/Clouds01.png);*/
-        /*background: url(../imgs/banner.png);*/
-        /*background: url(../imgs/bg_img.png);*/
-        background-size: cover;
-        background-color: none;
-        /*background: url(../imgs/HIRES008full.png);*/
-     }   
-/*
-@keyframes main {
-            from {background: url(../imgs/banner.png);}
-            to {background: url(../imgs/bg_img.png); }
-          }
-*/
+footer {
+          position: relative;
+          width: 100%;
+          clear: both;
+        }
+footer nav li {display: inline; 
+    padding: 5px;
+    }
