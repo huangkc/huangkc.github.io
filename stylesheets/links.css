@@ -4,18 +4,19 @@
   color: black;
   text-align: center;}
 
-#nav, #feature, .article, #footer {
+#nav, #feature, .article, .footer {
 margin-top: 20px;
 padding: 10px,0px,5px,0px; 
+position: relative;
 } 
 
 #feature, .article {
   height: 200px;
-  background-color: #c0c0c0;
-  
+  background-color: none;
+  font-size: 0.9em;
 }
 #feature {
-  background: url(../imgs/banner.png);
+  background: url(../imgs/HIRES008full.png);
   background-color: none;  
   background-size: cover;
   height: 250px;
@@ -26,19 +27,24 @@ padding: 10px,0px,5px,0px;
           animation-iteration-count: 2;
           animation-direction: alternate;*/
 }
-#feature p {  color: white;
+#feature p { 
+  color: white;
   text-align: left;
   font-size: 0.9em;
   margin-left: 1em;
 }
-
-li {display: inline; 
+.article li {
+  font-size:0.8em;
+  text-align: left;  
+  list-style-type: none;
+}
+#nav li, .footer #nav li {display: inline; 
     padding: 5px;
     }
-li a {text-decoration: none;
+#nav li a {text-decoration: none;
     font-size: 0.7em;
     text-transform: lowercase;}
-li a:hover {
+#nav li a:hover {
         color: red;
           }
 body { 
@@ -47,6 +53,7 @@ body {
         /*background: url(../imgs/bg_img.png);*/
         background-size: cover;
         background-color: none;
+        /*background: url(../imgs/HIRES008full.png);*/
      }   
 /*
 @keyframes main {
