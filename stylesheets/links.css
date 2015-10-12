@@ -38,8 +38,9 @@ padding: 10px,0px,5px,0px;
           }
 footer {
           position: relative;
-          width: 100%;
-          clear: both;
+          width: 960px;
+          clear: both; 
+          margin-left: 200px;
         }
 footer nav li {display: inline; 
     padding: 5px;
