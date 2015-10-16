@@ -84,10 +84,10 @@ ul, ol{
     animation-iteration-count: 2;
     animation-direction: alternate;          
     }
- /* @keyframes banner {
+  @keyframes banner {
             from {background-image: url(../imgs/brush.png);}
             to {background-image: url(../imgs/bg_img.png);}
-          }*/
+          }
 .bgc-bone {background-color: #f5f8fa;}
 
 .fz-xxl {font-size: 16em;}
