@@ -3,14 +3,17 @@
   <title>YBLOG Post</title>
   <meta charset="UTF-8">
 
-  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
-
+  <link rel="stylesheet" type="text/css" href="../stylesheets/960_12_col.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../stylesheets/default.css"> -->
+  <!-- <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css"> -->
+  <link rel="stylesheet" type="text/css" href="../stylesheets/links.css">
 </head>
 <body>
-<header>
-    <p>Kai C Huang</p>
-    <nav>
+<div class="container_12 clearfix">
+  <div id="header" class="grid_12">
+    <h1></h1>
+      <div id="nav">
+
       <ul>         
         <li><a href="https://huangkc.github.io/links.html">Links</a></li>
         <li><a href="#">Resume</a></li>
@@ -20,12 +23,13 @@
         <li><a href="https://huangkc.github.io/index.html">Home</a></li>
       </ul>
       
-    </nav>
-</header>
-<main>
-<article class="content">
-
-  <h1>Version Control</h1>
+    </div>
+    </div>
+<div id="feature" class="grid_12"></div>
+    <div class="article grid_2"><p></p></div>
+    <div class="article grid_8">
+    
+  <h2>Version Control</h2>
   <h4>8/23/2015</h4>
   <hr>
   <section>
@@ -42,14 +46,11 @@
     <p>
       <h4>Why Use GitHub to Store Your Code.</h4>
       GitHub is a repository on the Internet that can store your code. Having your code stored on GitHub means you can access your code at any time as long as you have an Internet connection. Collaboration becomes easier since everyone can work from an identical copy in GitHub. In this way, collaborators can work on the same project at the same time without conflicting with each other.      
-    </p>
-
-      
+    </p>      
   </section>
-  </article>
-</main>
-<aside></aside>
-<footer>
+  </div>
+<div class="article grid_2"></div>
+<div id="footer" class="grid_12">
   <nav>
       <ul>
        <li><a href="https://twitter.com/huangkc05"><img src="../imgs/twitter.png" alt text="Twitter"></a></li>
@@ -57,10 +58,10 @@
         <li><a href="https://github.com/huangkc"><img src="../imgs/octocat.png" alt text="GitHub"></a></li>
         <li><a href="mailto:huangkc05@gmail.com"><img src="../imgs/mail.png" alt text="Email"></a></li>
       </ul>
-      <p>copyright 2015</p>
+      <!-- <p>copyright 2015</p> -->
   </nav>
-</footer>
-
+</div>
+</div>
 
 </body>
 </html>
