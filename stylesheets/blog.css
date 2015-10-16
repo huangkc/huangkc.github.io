@@ -108,10 +108,10 @@
           animation-direction: alternate;
               }
           
-          @keyframes sidebar {
+         /* @keyframes sidebar {
             from {background: url(../imgs/HIRES130.png);}
             to {background: url(../imgs/Clouds01.png);}
-          }
+          }*/
      
      
 /* 
