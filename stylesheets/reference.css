@@ -1,42 +1,5 @@
 *{
   font-family: Constantia;
-  color: black;
-  }
-
-#nav, #header h1 {text-align: left;}
-
-#nav, #feature, .article, #footer {
-background-color: white;
-margin-top: 20px;
-padding: 10px,0px,5px,0px; 
-font-size: 1.2em;
-} 
-
-#feature {
-  height: 250px;
-  background-image: url(../imgs/bg_img.png);
-  }
-
-li {display: inline; padding: 5px}
-li a{text-decoration:none; text-transform: lowercase;}
- li a:hover {color:red; 
-  text-decoration: underline;}
-body { 
-        /*background-image: url(../imgs/Clouds01.png);*/
-        /*background: url(../imgs/banner.png);*/
-        /*background: url(../imgs/bg_img.png);*/
-        /*background-color: gray;*/
-     }   
-
-
-
-
-
-
-
-
-/**{
-  font-family: Constantia;
   font-size: 1.1em;
   color: black;
   text-align: center;
@@ -77,4 +40,3 @@ body {
     text-transform: lowercase;
   }
 #nav li a:hover {color: red;}
-*/

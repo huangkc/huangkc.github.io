@@ -3,32 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <title>CSS Concepts Blog</title>
-  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/960_12_col.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/links.css">
 </head>
-
 <body>
-
-<header><p>Kai C Huang</p>
-    <nav>
+<div class="container_12 clearfix">
+  <div id="header" class="grid_12">
+    <h1></h1>
+      <div id="nav">
+      <nav>
       <ul>
-        <li><a href="https://huangkc.github.io/links.html">Links</a></li>
-        <li><a href="#">Resume</a></li>
-        <li><a href="https://huangkc.github.io/about.html">About Me</a></li>
-        <li><a href="http://huangkc.github.io/projects/index.html">Projects</a></li>
-        <li><a href="https://huangkc.github.io/blog/index.html">Blog</a></li>
         <li><a href="https://huangkc.github.io/index.html">Home</a></li>
-      
-      </ul>
-      
-    </nav>
-</header>  
+        <li><a href="https://huangkc.github.io/blog/index.html">Blog</a></li>
+        <li><a href="https://huangkc.github.io/about.html">About</a></li>
+        <li><a href="http://huangkc.github.io/projects/index.html">Projects</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="https://huangkc.github.io/links.html">Links</a></li>      
+      </ul>      
+    </div>
+</div>  
+    <div id="feature" class="grid_12"></div>
+    <div class="article grid_1"><p></p></div>
+    <div class="article grid_10">
 
-<main>
-<article class="content">
-
-  <h1>CSS Concepts</h1>
-  <h2>Margin, Border, and Padding</h2>
+  <h2>CSS Concepts</h2>
+  <h3>Margin, Border, and Padding</h3>
   <h4>9/2/2015</h4>
   <hr>
   <section> 
@@ -61,24 +60,19 @@
     
 </p>
     <p>Notice the number of variables that can be adjusted individually. This gives you very fine control of of how your page looks. Clearly there is a lot more to margin, border, and padding in CSS. Hopefully this quick look gave you a helpful introduction to these concepts. To learn more about the Box Model and CSS positioning checkout this <a href="http://www.w3schools.com/cssref/default.asp#background">link</a>.</p>
-
-      
-    </section></article>
-</main>
-
-<aside>
-
-</aside>
-<footer>    
-<nav>
+    </section>
+    </div>
+  <div class="article grid_1"></div>
+  <div id="footer" class="grid_12">
+  <nav>
       <ul>
-       <li><a href="https://twitter.com/huangkc05"><img src="../imgs/twitter.png" alt text="Twitter"></a></li>
+  <!--      <li><a href="https://twitter.com/huangkc05"><img src="../imgs/twitter.png" alt text="Twitter"></a></li>
         <li><a href="https://www.linkedin.com/profile/view?id=AAIAABhZyJcBqLCzxorUtss6f_VmqnkT1GbZl2A&trk=nav_responsive_tab_profile"><img src="../imgs/linkedin.png" alt text="Linkedin"></a></li>
         <li><a href="https://github.com/huangkc"><img src="../imgs/octocat.png" alt text="GitHub"></a></li>
-        <li><a href="mailto:huangkc05@gmail.com"><img src="../imgs/mail.png" alt text="Email"></a></li>
+        <li><a href="mailto:huangkc05@gmail.com"><img src="../imgs/mail.png" alt text="Email"></a></li> -->
       </ul>
       <p>copyright 2015</p>
   </nav>
-</footer>
-</body>
+</div>
+</div>
 </html>
