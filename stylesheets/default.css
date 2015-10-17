@@ -4,7 +4,7 @@
         /*background: url(../../new_background.png);*/
         /*background: url(../imgs/bg_img.png);*/
         /*background: url(../imgs/HIRES123.png);*/
-        background: url(../imgs/HIRES008full.png);
+        /*background: url(../imgs/HIRES008full.png);*/
         /*background-size: 100% 100%;*/
         background-size: cover;  
         /*animation-name: bd;
@@ -14,6 +14,7 @@
         animation-iteration-count: 2;
         animation-direction: alternate;*/
         /*background-color: #CCFFCC;   */
+        font-color: black;
       }
             
          @keyframes bd {
@@ -24,23 +25,22 @@
           }
 
    header p {
-          color: white; 
+          color: black; 
           padding-top: 1em;
           font-size: 1.5em; 
           margin-left: 1em; 
           font-family: Magneto, sans-serif;
          }    
-   header {          
-
+   header {    
            position: relative;
            width: 100%;
            margin-top: -2%;
            height: 5.5em;
            margin-bottom: 0%;   
-           background-color: lightgray;
+           /*background-color: lightgray;*/
            /*background: url(../imgs/banner.png);
            /*background: url(../imgs/bg_img.png)*/
-           background: url(../imgs/Clouds01.png);           
+           /*background: url(../imgs/Clouds01.png);           */
            background-size: cover;
           /* animation-name: heading;
           animation-duration: 20s;
@@ -55,8 +55,6 @@
             from {background: url(../imgs/Clouds01.png);}
             to {background: url(../imgs/banner.png);}
           }*/
-
-
    header nav ul {
           position: relative;
           margin-top: -0.5em; 
@@ -65,10 +63,10 @@
           display: inline;
           float: right;
           } 
-   header nav a {          
-          font-family: Aharoni, Gill sans MT;
+   header nav a { 
+          font-family: Aharoni;
           display: block; 
-          width: 6em;
+          width: 5em;
           font-size: 1.2em;
           background-color: none;
           text-align: center;
@@ -79,7 +77,7 @@
         color: red;
           }
    header nav li a {
-        color: white;
+        color: black;
         }
    aside {
           /*border: 1px solid red;*/
@@ -110,15 +108,15 @@
         }
     footer nav li {
           display: inline;
-          float: left;
+          /*float: left;*/
         }
     footer ul li a {
-      margin-top: -0.3em;
+        margin-top: -0.3em;
         text-transform: lowercase;
         text-decoration: none;
         color: white;
         padding: 0.7em;
-        display: block;
+        /*display: block;*/
         font-family: Aharoni;
       }
       footer ul li a img {
@@ -126,21 +124,31 @@
       }
     footer li a:hover {
         color: red;
-      }
-    
-      .content {
+      }    
+      .feature {
           font-size:1.2em;
-          font-family: Verdana;
-          width: 40%;
-          float:left;
-          border: none;
+          font-family: Verdana;          
+          background-size:cover;
+          float: left;
+          margin-top:2%;
           box-sizing: border-box;
-          margin-top:5%;
-          margin-left: 15%;
+          width: 100%;
           color: white;
+          height:350px; 
+          clear: both;
+          background-image: url(../imgs/brush.png);
+      }
+      .txt {
+        margin-top:25%;
+        margin-left: 120px;
+        width: 80%;
+        color: black;
+        /*border: 1px solid red;*/
+        position: relative;
+        /*margin-top: 16em;*/
       }
 
-/*    .content {
+/*    .feature {
           font-size: 1em;
           position: relative;
           float: right;
@@ -157,14 +165,15 @@
            }*/
      footer {
           position: relative;
-          margin-top: 33.5em;
+          margin-top: 33em;
           margin-bottom: 0em;
           height: 3em;
           clear: both;
-          background-color: #F4EBC3;
-          background: url(../imgs/Clouds01.png);
+          text-align: center;
+          /*background-color: #F4EBC3;*/
+          /*background: url(../imgs/Clouds01.png);*/
 /*          background: url(../imgs/banner.png);    */
-          background-size: cover;
+          /*background-size: cover;*/
         }
         
      
