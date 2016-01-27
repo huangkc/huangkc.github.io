@@ -3,7 +3,7 @@
   font-size: 1.1em;
   color: black;
   text-align: center;
-  background-color: gray;
+  background-color: none;
 }
 #header h4 {font-family: Magneto;}
 #nav, #footer {background-color: gray}
