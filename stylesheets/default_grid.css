@@ -6,7 +6,8 @@
   background-color: none;
 }
 #header h4 {font-family: Magneto;}
-#nav, #footer {background-color: gray}
+#nav {background-color: gray}
+#footer {background-color: none;}
 #feature {
   background: url(../imgs/brush.png);
   background-size: cover;
