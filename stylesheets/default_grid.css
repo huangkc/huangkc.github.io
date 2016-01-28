@@ -5,6 +5,10 @@
   text-align: center;
   background-color: none;
 }
+.resume{text-align: left}
+.resume p {text-align: left}
+.resume a {font-size: 1em;}
+
 #header h4 {font-family: Magneto;}
 #nav {background-color: gray}
 #footer {background-color: none;}
