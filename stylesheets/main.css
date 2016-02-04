@@ -81,7 +81,7 @@ ul, ol{
     margin:auto;
     text-align: center;
   }
-
+.intro {margin: auto; padding: 50px;}
 /*.img-left, .img-right, .img-center {
   text-align: center; margin: auto;
   height: 200px; width: 200px; padding: 10px;}
@@ -163,9 +163,9 @@ footer p {
       }
 
 footer ul {
-    /*border: 1px solid red;*/
+        /*border: 1px solid red;*/
         list-style-type: none;
-        margin-top: 70px;*/
+        margin-top: 10px;
         position: relative;
         /*text-align: center;*/
         }
