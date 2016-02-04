@@ -2,7 +2,7 @@
 
 html {
     color: #222;
-    font-size: 1em;
+    font-size: 1.3em;
     line-height: 1.4;
 }
 
@@ -71,18 +71,34 @@ ul, ol{
 .p-xs{padding: 0.4em;}
 .p-sm{padding: 0.6em;}
 .p-xxl {padding: 10em; }
-    
+.banner-text {
+    font-size: 1.5em; 
+    margin:auto;
+    /*text-align: center;*/
+  }
+.banner-subheading {
+    font-size: 1em; 
+    margin:auto;
+    /*text-align: center;*/
+  }
+.profile{height: 150px; width: 150px; border-radius: 50%;}
+.intro {margin: auto; padding: 50px;}
+/*.img-left, .img-right, .img-center {
+  text-align: center; margin: auto;
+  height: 200px; width: 200px; padding: 10px;}
+*/
 .bgc-cool {
     color: white;
-    height: 25px;
+    height: 120px;
+    /*background-image: url(../imgs/bg_img.png);*/
     background-image: url(../imgs/brush.png);
     background-size: cover;
     animation-name: banner;
     animation-duration: 20s;
     animation-timing-function: linear;
     animation-delay: 0s;
-    animation-iteration-count: 2;
-    animation-direction: alternate;          
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
     }
   @keyframes banner {
             from {background-image: url(../imgs/brush.png);}
@@ -124,7 +140,7 @@ header nav a {
           font-family: Constantia, Gill sans MT;
           display: block; 
           padding: 8px;
-          font-size: 1em;
+          font-size: 0.8em;
           text-align: center;
           text-decoration: none;
           text-transform: lowercase;
@@ -148,9 +164,9 @@ footer p {
       }
 
 footer ul {
-    /*border: 1px solid red;*/
+        /*border: 1px solid red;*/
         list-style-type: none;
-        margin-top: 70px;*/
+        margin-top: 10px;
         position: relative;
         /*text-align: center;*/
         }
