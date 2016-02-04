@@ -74,13 +74,14 @@ ul, ol{
 .banner-text {
     font-size: 1.5em; 
     margin:auto;
-    text-align: center;
+    /*text-align: center;*/
   }
 .banner-subheading {
     font-size: 1em; 
     margin:auto;
-    text-align: center;
+    /*text-align: center;*/
   }
+.profile{height: 150px; width: 150px; border-radius: 50%;}
 .intro {margin: auto; padding: 50px;}
 /*.img-left, .img-right, .img-center {
   text-align: center; margin: auto;
