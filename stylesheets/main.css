@@ -57,6 +57,7 @@ textarea {
    ========================================================================== */
 * {
     font-family: Constantia;
+    background-color: none;
 }
 ul, ol{
 -web-kit-margin-before:0;
