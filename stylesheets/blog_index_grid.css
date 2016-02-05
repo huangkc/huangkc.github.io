@@ -31,8 +31,9 @@
 #footer li {
   display: inline; 
   padding:5px;
-
 }
+
+.article a {text-decoration: none; font-size: 1em;}
 
 #feature {height: 250px;}
 .article {font-size: 0.9em;}
