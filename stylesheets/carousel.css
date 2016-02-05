@@ -7,11 +7,22 @@ body {
   color: #5a5a5a;
 }
 
-
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
+.profile {
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%;
+}
+
+.img-circle {
+  width: 150px; 
+  height: 150px; 
+  border-radius: 50%; 
+}
+
 .navbar-wrapper {
   position: absolute;
   top: 0;
@@ -30,7 +41,7 @@ body {
   padding-left: 15px;
 }
 .navbar-wrapper .navbar .container {
-  width: auto;
+  width: auto; 
 }
 
 
@@ -109,7 +120,6 @@ body {
     padding-right: 0;
     padding-left: 0;
   }
-
   /* The navbar becomes detached from the top, so we round the corners */
   .navbar-wrapper .navbar {
     border-radius: 4px;
