@@ -100,6 +100,7 @@ body {
 @media (min-width: 768px) {
   .masthead-brand {
     float: left;
+    font-family: Cursive;
   }
   .masthead-nav {
     float: right;
@@ -128,8 +129,13 @@ body {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
 }
-
-
+.mastfoot ul li {
+  display: inline-block;
+}
+.mastfoot ul li a {
+  font-size: 16px;
+  padding: 10px;  
+}
 /*
  * Affix and center
  */
