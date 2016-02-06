@@ -41,9 +41,12 @@ body {
   padding-left: 15px;
 }
 .navbar-wrapper .navbar .container {
-  width: auto; 
+  width: auto; height: 50px;
 }
-
+.navbar-nav li a, .profile {
+  margin: auto; 
+  font-size: 1.5em;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
