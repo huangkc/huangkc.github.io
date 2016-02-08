@@ -37,7 +37,7 @@ body {
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
-img {width: 140px; height: 150px; border-radius: 50%;}
+img {width: 160px; height: 170px; border-radius: 50%;}
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
