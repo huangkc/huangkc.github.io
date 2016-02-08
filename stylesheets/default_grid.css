@@ -5,8 +5,7 @@
   text-align: center;
   background-color: none;
 }
-
-.resume{text-align: left}
+.resume, .intro p {text-align: left}
 .resume p {text-align: left}
 .resume a {font-size: 1em;}
 .resume ul li {font-size: 1em; list-style-type: circle}
