@@ -36,7 +36,11 @@ body {
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
-img {width: 100px; height: 105px; border-radius: 50%;}
+img {
+  width: 100px; 
+  height: 105px; 
+  border-radius: 50%;
+}
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
@@ -78,7 +82,7 @@ img {width: 100px; height: 105px; border-radius: 50%;}
 .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
