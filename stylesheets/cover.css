@@ -19,7 +19,9 @@ a:hover {
   border: 1px solid #fff;
 }
 
-
+.cover-heading, .lead {
+  font-family: sans-serif;
+}
 /*
  * Base structure
  */
@@ -29,7 +31,6 @@ body {
   height: 100%;
   background-color: #333;
   background: url('../imgs/cover.jpeg');
-/*  background: url('https://images.unsplash.com/photo-1453530413562-3670364126b3?crop=entropy&dpr=0.67&fit=crop&fm=jpg&h=1125&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=2125');*/
   background-size: cover;
 }
 body {
@@ -37,7 +38,11 @@ body {
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
-img {width: 160px; height: 170px; border-radius: 50%;}
+img {
+  width: 100px; 
+  height: 105px; 
+  border-radius: 50%;
+}
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
@@ -77,9 +82,10 @@ img {width: 160px; height: 170px; border-radius: 50%;}
   margin-left: 20px;
 }
 .masthead-nav > li > a {
+  padding-top: 30px;
   padding-right: 0;
   padding-left: 0;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
