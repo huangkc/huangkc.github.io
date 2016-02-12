@@ -20,7 +20,8 @@ a:hover {
 }
 
 .cover-heading, .lead {
-  font-family: sans-serif;
+  font-family: 'Vollkorn', serif;
+  /*font-family: 'Bree Serif', serif;*/
 }
 /*
  * Base structure
@@ -85,7 +86,7 @@ img {
   padding-top: 30px;
   padding-right: 0;
   padding-left: 0;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
@@ -140,7 +141,7 @@ img {
   display: inline-block;
 }
 .mastfoot ul li a {
-  font-size: 16px;
+  font-size: 18px;
   padding: 10px;  
 }
 /*
