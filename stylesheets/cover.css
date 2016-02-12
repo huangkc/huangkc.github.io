@@ -19,7 +19,9 @@ a:hover {
   border: 1px solid #fff;
 }
 
-
+.cover-heading, .lead {
+  font-family: sans-serif;
+}
 /*
  * Base structure
  */
@@ -80,6 +82,7 @@ img {
   margin-left: 20px;
 }
 .masthead-nav > li > a {
+  padding-top: 30px;
   padding-right: 0;
   padding-left: 0;
   font-size: 20px;
