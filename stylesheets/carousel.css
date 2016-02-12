@@ -45,7 +45,7 @@ body {
 }
 .navbar-nav li a, .profile {
   margin: auto; 
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 /* CUSTOMIZE THE CAROUSEL
