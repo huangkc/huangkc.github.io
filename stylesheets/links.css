@@ -3,78 +3,53 @@
   color: black;
   }
 
-#nav, #header h1 {text-align: left;}
+#nav, #header h1 {
+  text-align: left;
+}
 
+.blog-nav {
+  background-color: #333;
+  height: 50px;
+}
+
+.blog-nav ul {
+  padding: 10px;
+}
+
+.blog-nav ul li a{
+  color: white;
+}
 #nav, #feature, .article, #footer {
-background-color: white;
-margin-top: 20px;
-padding: 10px,0px,5px,0px; 
-font-size: 1.2em;
+  background-color: white;
+  margin-top: 20px;
+  padding: 10px,0px,5px,0px; 
+  font-size: 1.2em;
 } 
 
 #feature {
+  color: white;
   height: 250px;
-  background-image: url(../imgs/bg_img.png);
+  /*background-image: url(../imgs/bg_img.png);*/
+  background-image: url(../imgs/brush.png);
+  background-size: cover;
+  animation-name: banner;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; 
   }
+  @keyframes banner {
+  from {background-image: url(../imgs/brush.png);}
+  to {background-image: url(../imgs/bg_img.png);}
+}
 
-li {display: inline; padding: 5px}
-li a{text-decoration:none; text-transform: lowercase;}
+li {
+  display: inline; padding: 5px;
+}
+li a {
+  text-decoration:none; 
+  text-transform: lowercase;
+}
  li a:hover {color:red; 
   text-decoration: underline;}
-body { 
-        /*background-image: url(../imgs/Clouds01.png);*/
-        /*background: url(../imgs/banner.png);*/
-        /*background: url(../imgs/bg_img.png);*/
-        /*background-color: gray;*/
-     }   
-
-
-
-
-
-
-
-
-/**{
-  font-family: Constantia;
-  font-size: 1.1em;
-  color: black;
-  text-align: center;
-}
-#nav, #feature {
-  background: url(../imgs/HIRES008full.png);
-  background-size: cover;
-}
-#nav, #feature, .article, #footer{
-  margin-top: 20px;
-  padding: 10px,0px,5px,0px; 
-} 
-#footer {
-  width: 960px;
-  margin-left: 200px;
-  position:relative;
-}
-#footer li {
-  display: inline; 
-  padding:5px;
-}
-.article{
-  font-size: 0.9em;
-  background-color:none;
-}
-#feature {height: 250px;}
-.article li {
-  font-size:0.8em;
-  text-align: left;  
-  list-style-type: none;
-}
-#nav li {
-  display: inline; 
-  padding: 5px;
-  }
-#nav li a {text-decoration: none;
-    font-size: 0.7em;
-    text-transform: lowercase;
-  }
-#nav li a:hover {color: red;}
-*/
