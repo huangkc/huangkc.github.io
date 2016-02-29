@@ -7,7 +7,8 @@ body {
   color: #5a5a5a;
 }
 
-.row-3{border: 1px solid red;}
+.row-3{height: 300px; background-color: gray;}
+.row-4{height: 300px; border: 1px solid red;}
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
