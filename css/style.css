@@ -37,6 +37,8 @@ nav .brand-logo {
 
 p {
   line-height: 2rem;
+  font-family: 'Raleway';
+  font-size: 1.08em;
 }
 
 .button-collapse {
