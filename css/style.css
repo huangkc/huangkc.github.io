@@ -6,23 +6,21 @@
  * Made By MaterializeCSS.com
  */
 body {
-  font-family: helvetica;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 nav ul a,
 nav .brand-logo {
   color: #168;
-  font-family: Arial Black;
-
+  font-family: 'Raleway bold', sans-serif;
 }
 
 .header{
-  font-family: helvetica;
   font-weight: bold;
 }
 
 .logo{
-  font-family: Arial Black;
+  font-family: 'Ubuntu', sans-serif;
   color: teal;
   font-size: 1.5em;
   font-weight: bold;
@@ -39,6 +37,8 @@ nav .brand-logo {
 
 p {
   line-height: 2rem;
+  font-family: 'Raleway';
+  font-size: 1.08em;
 }
 
 .button-collapse {
