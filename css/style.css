@@ -6,23 +6,24 @@
  * Made By MaterializeCSS.com
  */
 body {
-  font-family: helvetica;
+  font-family: 'Ubuntu', sans-serif;
+  /*font-family: helvetica;*/
 }
 
 nav ul a,
 nav .brand-logo {
   color: #168;
-  font-family: Arial Black;
+  /*font-family: Arial Black;*/
 
 }
 
 .header{
-  font-family: helvetica;
+  /*font-family: helvetica;*/
   font-weight: bold;
 }
 
 .logo{
-  font-family: Arial Black;
+  /*font-family: Arial Black;*/
   color: teal;
   font-size: 1.5em;
   font-weight: bold;
