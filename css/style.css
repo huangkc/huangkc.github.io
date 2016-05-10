@@ -7,13 +7,12 @@
  */
 body {
   font-family: 'Ubuntu', sans-serif;
-  /*font-family: helvetica;*/
 }
 
 nav ul a,
 nav .brand-logo {
   color: #168;
-  /*font-family: Arial Black;*/
+  font-family: 'Raleway bold', sans-serif;
 
 }
 
@@ -23,7 +22,8 @@ nav .brand-logo {
 }
 
 .logo{
-  /*font-family: Arial Black;*/
+  font-family: 'Ubuntu', sans-serif;
+
   color: teal;
   font-size: 1.5em;
   font-weight: bold;
