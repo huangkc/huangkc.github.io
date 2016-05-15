@@ -6,7 +6,12 @@
  * Made By MaterializeCSS.com
  */
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', sans-serif;  
+}
+
+.welcome p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
 }
 
 nav ul a,
@@ -46,7 +51,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 680px;
+  min-height: 750px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
