@@ -22,8 +22,10 @@ body {
 
 nav ul a,
 nav .brand-logo {
-  color: #168;
-  font-family: 'Raleway bold', sans-serif;
+  /*color: #168;*/
+  font-family: 'Ubuntu', sans-serif;
+  color: black;
+  /*font-family: 'Raleway bold', sans-serif;*/
 }
 
 .header{
@@ -32,7 +34,7 @@ nav .brand-logo {
 
 .logo{
   font-family: 'Ubuntu', sans-serif;
-  color: teal;
+  color: black;
   font-size: 1.5em;
   font-weight: bold;
 }
