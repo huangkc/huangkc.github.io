@@ -9,15 +9,24 @@ body {
   font-family: 'Ubuntu', sans-serif;  
 }
 
+.space {
+  height: 50px;
+  min-width: 100%;
+}
+
 .welcome p {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
+  padding-top: 150px;
 }
 
 nav ul a,
 nav .brand-logo {
-  color: #168;
-  font-family: 'Raleway bold', sans-serif;
+  /*color: #168;*/
+  font-family: 'Ubuntu', sans-serif;
+  color: black;
+  font-weight: bold;
+  /*font-family: 'Raleway bold', sans-serif;*/
 }
 
 .header{
@@ -26,7 +35,7 @@ nav .brand-logo {
 
 .logo{
   font-family: 'Ubuntu', sans-serif;
-  color: teal;
+  color: black;
   font-size: 1.5em;
   font-weight: bold;
 }
@@ -59,8 +68,15 @@ p {
 
 .parallax-container .section {
     width: 100%;
-  }
+}
 
+.contact-us h5 {
+  color: white;
+}
+
+.contact-us h5:hover {
+  color: red;
+}
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
