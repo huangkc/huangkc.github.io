@@ -45,8 +45,9 @@ nav .brand-logo {
 }
 
 .project-image {
+  /*padding-top: 5px;*/
+  padding: 10px;
   border-radius: 50%;
-  border: 1px solid gray;
 }
 
 p {
